@@ -1,14 +1,15 @@
 function updatedCloseRequest(hObject, event, jFrame)
 % UPDATEDCLOSEREQUEST  Add. callback for close event to close also a jFrame
 %
-% Author:  Michael Wulf
+% Authors: David Bonda
+%          Michael Wulf
 %          Cold Spring Harbor Laboratory
 %          Kepecs Lab
-%          Cold Spring Harbor, NY, USA
-%          wulf@cshl.edu
-%          michael.wulf@gmail.com
-%
-% Date:    2018-10-08
+%          One Bungtown Road
+%          Cold Spring Harboor
+%          NY 11724, USA
+% 
+% Date:    10/09/2018 
 % Version: 1.0.0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

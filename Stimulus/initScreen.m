@@ -7,14 +7,15 @@ function [hFig, hJFrame, hAxes] = initScreen(usedDisplay, bgColor)
 %  - bgColor: The backgroud color (RGB values) of the figure presented as a
 %  3-element row vector each value in the range between 0 and 1
 % 
-% Author:  Michael Wulf
+% Authors: David Bonda
+%          Michael Wulf
 %          Cold Spring Harbor Laboratory
 %          Kepecs Lab
-%          Cold Spring Harbor, NY, USA
-%          wulf@cshl.edu
-%          michael.wulf@gmail.com
-%
-% Date:    2018-10-08
+%          One Bungtown Road
+%          Cold Spring Harboor
+%          NY 11724, USA
+% 
+% Date:    10/09/2018 
 % Version: 1.0.0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
