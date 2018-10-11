@@ -98,7 +98,7 @@ hFig = figure('Name', 'Looming stimulus',...
     );
 % "Hide" it somewhere outside the visible area but don't set the visible
 % option to off! Otherwise the Java-based code will ot work anymore!
-set(hFig, 'OuterPosition', [figurePositions(3:4), figurePositions(3:4)]);
+set(hFig, 'OuterPosition', [2 * figurePositions(3:4), figurePositions(3:4)]);
 
 % Create an axes object in this figure that we can refer to
 hAxes = axes(hFig, 'Color', bgColor, 'Visible', 'off');
