@@ -45,14 +45,17 @@ switch bytein
             plotEllipticalStimulus(hAxes, spotColor, fps);
             pause(delay);
         end
+        TaskParameters.screenInit = 3;
         
     case 2
         % Present the 'shelter' stimulus in the external figure
         clearScreen(hFig, hJFrame, hAxes, shelterBgColor);
+        TaskParameters.screenInit = 2;
         
     case 3
         % Reset the external figure to the default background
         clearScreen(hFig, hJFrame, hAxes, defaultBgColor);
+        TaskParameters.screenInit = 3;
         
 end % switch
 
