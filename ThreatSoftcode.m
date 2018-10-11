@@ -36,7 +36,9 @@ hAxes   = TaskParameters.hAxes;
 
 % Do the action corresponding to the softcode
 switch bytein
-    
+    case 0
+        % Do nothing
+        
     case 1
         % Present the looming stimulus in the external figure
         for cnt = 1:1:repititions

@@ -70,6 +70,7 @@ clear 'MLverStr';
 clear 'MLverCell';
 clear 'MLver';
 
+global BpodSystem;
 
 
 % Importing Java libraries for controlling the stimulus presentation
@@ -87,6 +88,11 @@ if ( size(monitors, 1) >= usedDisplay )
     figurePositions = monitors(usedDisplay, :);
 else
     figurePositions = monitors(1, :);
+end
+
+if (BpodSystem.EmulatorMode == 1)
+    figurePositions(3) = figurePositions(3)/10;
+    figurePositions(4) = figurePositions(4)/10;
 end
 
 % Create the main figure
