@@ -40,6 +40,7 @@ switch bytein
         % Do nothing
         
     case 1
+        disp('Stimulus triggered!');
         % Present the looming stimulus in the external figure
         for cnt = 1:1:repititions
             plotEllipticalStimulus(hAxes, spotColor, fps);
